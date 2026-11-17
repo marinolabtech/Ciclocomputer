@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CicloComputer – Privacy Policy</title>
+<meta name="description" content="Privacy Policy for the CicloComputer Android app by Marinolab.">
+<style>
+:root {
+  --bg: #ffffff;
+  --text: #1c1f23;
+  --muted: #5b636c;
+  --line: #d9dde1;
+  --accent: #0b6b5c;
+  --surface: #f4f6f7;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #000000;
+    --text: #e8eaed;
+    --muted: #9aa3ab;
+    --line: #2a2f35;
+    --accent: #4fd1b5;
+    --surface: #111418;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.65;
+}
+main { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .25rem; }
+h2 { font-size: 1.25rem; margin: 2.25rem 0 .5rem; padding-top: 1.25rem; border-top: 1px solid var(--line); }
+p, li { max-width: 68ch; }
+.meta { color: var(--muted); margin: 0 0 1.5rem; }
+a { color: var(--accent); }
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; min-width: 34rem; font-size: .95rem; }
+th, td { text-align: left; vertical-align: top; padding: .6rem .75rem; border-bottom: 1px solid var(--line); }
+th { background: var(--surface); }
+code { background: var(--surface); padding: .1rem .3rem; border-radius: 3px; font-size: .9em; }
+.note { background: var(--surface); border-left: 3px solid var(--accent); padding: .75rem 1rem; margin: 1rem 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>CicloComputer – Privacy Policy</h1>
+<p class="meta">Last updated: November 17, 2026</p>
+
+<p>This Privacy Policy explains how the <strong>CicloComputer</strong> Android app (package name <code>com.marinolab.ciclocomputer</code>, the “App”), published by <strong>Marinolab</strong> (“we”, “us”), handles information when you use it. CicloComputer is a free, ad-free cycling computer.</p>
+
+<div class="note">
+<strong>In short:</strong> your ride data stays on your device. We do not run servers that receive your location, heart rate or contacts, we do not show ads, and we do not sell or share your personal data.
+</div>
+
+<h2>1. Information the App uses</h2>
+<p>The App works with the following data. All of it is processed on your device and is not sent to us.</p>
+<ul>
+  <li><strong>Location data</strong> (precise and approximate): used in real time for the GPS speedometer, speed, distance, elevation gain, route tracking and GPX navigation. Ride history is stored locally on your device.</li>
+  <li><strong>Heart rate and sensor data</strong>: if you connect Bluetooth Low Energy sensors (heart rate strap, cadence/speed sensor, power meter), the readings are shown in the App and saved in the local ride database on your device.</li>
+  <li><strong>Emergency contact details and phone number data</strong>: if you enable the safety feature, the phone numbers you choose are stored locally and used only to send an emergency message.</li>
+  <li><strong>Camera access</strong>: used only to control the rear LED flash as a safety strobe light. The App does not take photos or record video.</li>
+  <li><strong>Notifications</strong>: used to show the ongoing ride notification and spoken or visual turn-by-turn alerts.</li>
+</ul>
+
+<h2>2. Background location</h2>
+<p>While a ride is being recorded, the App runs a foreground service with a visible notification so that tracking continues when the screen is off or the App is in the background. Location is collected only while tracking is active and you started it. You can stop tracking at any time from the App or the notification.</p>
+
+<h2>3. Emergency SOS messages</h2>
+<p>If you enable crash detection, the App may detect a possible fall or accident using your device’s motion sensors. If you do not cancel the alert in time, the App sends an SMS with your GPS coordinates to the emergency contacts you configured. The message is sent from your phone through your mobile carrier, and standard carrier charges may apply. We do not receive, store or see these messages. Crash detection is a convenience feature and may fail to detect an incident or may trigger a false alarm; it is not a substitute for emergency services.</p>
+
+<h2>4. Permissions</h2>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Permission</th><th>Purpose</th></tr></thead>
+  <tbody>
+    <tr><td>Location (fine, coarse, background)</td><td>Speed, distance, elevation, route recording and navigation during a ride.</td></tr>
+    <tr><td>Foreground service (location)</td><td>Keeps ride tracking running reliably with a visible notification.</td></tr>
+    <tr><td>Bluetooth (scan, connect)</td><td>Connect to your BLE sensors.</td></tr>
+    <tr><td>Send SMS</td><td>Send the emergency message with your coordinates after a detected crash.</td></tr>
+    <tr><td>Camera</td><td>Control the LED flash as a safety light only.</td></tr>
+    <tr><td>Notifications</td><td>Ride status and navigation alerts.</td></tr>
+  </tbody>
+</table>
+</div>
+<p>You can revoke any permission at any time in your device settings. Some features will stop working without the related permission.</p>
+
+<h2>5. Data sharing</h2>
+<p>We do not collect your personal data on our servers and we do not sell, rent or share it with third parties. The App contains no advertising and no analytics or tracking SDKs. The only data that leaves your device is data you choose to send, such as the emergency SMS, or a GPX file you export or share yourself.</p>
+
+<h2>6. In-app purchases and donations</h2>
+<p>The App offers optional, voluntary donations through Google Play Billing (for example “coffee”, “pizza” and “supporter”). Payments are processed entirely by Google Play. We do not receive your payment card details or other payment information. Donations do not unlock features. Google’s handling of your data is described in the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.</p>
+
+<h2>7. Data storage, retention and deletion</h2>
+<p>Ride history, sensor readings and settings are stored locally in the App’s private storage. You can delete individual rides inside the App, or delete all App data by clearing the App’s storage or uninstalling it from your device. Because we do not hold copies of your data, we cannot recover it after deletion.</p>
+
+<h2>8. Security</h2>
+<p>Your data is kept in the App’s private storage area on your device and is protected by your device’s security features. Please keep your device updated and protected with a screen lock. No method of storage is completely secure.</p>
+
+<h2>9. Children’s privacy</h2>
+<p>The App is not directed at children under 13 and we do not knowingly collect personal information from children.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>We may update this Privacy Policy from time to time. The latest version will always be available at this page, with the “Last updated” date above.</p>
+
+<h2>11. Contact</h2>
+<p>If you have questions about this Privacy Policy, contact us at: <a href="mailto:marino.strazzullo@gmail.com">marino.strazzullo@gmail.com</a></p>
+</main>
+</body>
+</html>
